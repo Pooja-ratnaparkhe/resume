@@ -1,0 +1,243 @@
+%-------------------------                                       
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+ 
+    {\Huge \scshape \textbf{Pooja Ratnaparkhe}} \\ \vspace{1pt}
+  
+    \href{mailto:shraddhabiradar263@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  {poojaratnaparkhe07@gmail.com}} ~ \small \raisebox{-0.1\height}\faPhone\ +91-9309004721 ~ 
+    \href{www.linkedin.com/in/
+pooja-ratnaparkhe
+Vanity URL name
+}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}  ~\\
+    
+ \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{https://github.com/Pooja-ratnaparkhe}}
+    
+     Akhurdi, Pune, Maharashtra -411001
+ \\ \vspace{1pt}
+    \vspace{-8pt}
+\end{center}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {White Table Technology}{January 2025 -July }
+      {Software Engineer Intern}{Pune, Maharashtra}
+      \resumeItemListStart
+        \resumeItem{Excelled in Java development, acquiring expertise through an intensive internship program}
+        \resumeItem{Pioneered the development of robust software solution, making significant contributions to real – world projects. Significantly enhanced skills in coding, debugging.}
+        \resumeItem{Gained practical, hands-on experience in agile software development methodologies, actively participating in Spring planning, and fostering iterative development processes.}
+        \resumeItem{Currently working on one projects:}
+      \resumeItem{1)Hospital Management System: Responsible for creating and maintaining the backend infrastructure, ensuring seamless integration and functionality}
+     
+     
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: HTML,CSS,Javascipt,Java,Advance Java} \\
+     \textbf{Freamworks}{: Spring Boot, Hibernate,Bootstrap,Agular}\\
+     \textbf{Database Technologies}{: MySQL}\\
+    
+     \textbf{IDEs and Development Tools}{: Eclipse, STS,Intellij IDEA,Notepad++,Postman, VS Code,MySQL Workbench} \\
+    
+    }}
+ \end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+     
+        
+      
+          
+          \resumeProjectHeading
+          {\textbf{Hospitals Management System}  \emph{}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a comprehensive Hospital Management System using java,SpringBoot,Hibernate,and Mysql.implimented features such as hospitals sheduling,venue management (Admin,User,Vendor)
+}
+            \resumeItem{Built Restful API's for seamless data handling .ensured validation for input fieldes and integrated a dashboard for tracking total 
+            hospitals,invoices and revenue. }
+
+         
+    \resumeSubHeadingListEnd
+
+    %-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{Master of Computer Application[MCA]}
+}{2023 -2025}
+      {\textsc{Navsahyadri Group of Institutions ,Pune MCA} }{8.21}
+       \resumeSubheading
+      {\textbf{\textbf{Bachelor of Science [B.SC]} }
+}{2021 -2023}
+      {\textscya{Mahatma Phule Mahavidyala,Collage Kingoan} }{7.83}\resumeSubheading
+ {\textbf{\textbf{HSC } }
+}{2018-2020}
+      {\textscya{Mallharao Holkar Collage, Kingoan} }{56.62}\resumeSubheading
+{\textbf{\textbf{SSC} }
+}{2017 -2018}
+      {\textscya{Bhagwan Vidhyalay , Kingoan} }{78.0}\resumeSubheading   
+
+      
+     
+      
+  \resumeSubHeadingListEnd
+
+
+
+
+
+
+
+%-----------INVOLVEMENT---------------
+
+\section{Certification}
+    \resumeSubHeadingListStart
+    \resumeItem{•	\textbf{Symbiosis Skill and Professional University pune- Full Stack Java}}
+    
+\resumeSubHeadingListEnd
+
+\section{}
+\resumeSubHeadingListStart
+\resumeItem{}
+\resumeItem{
+
+}
+\resumeSubHeadingListEnd
+
+
+\end{document}
