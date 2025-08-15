@@ -1,5 +1,5 @@
 this is code resume
-and edit of code
+and edit of code(resume)
 %-------------------------                                       
 % Resume in Latex
 % Author : Jake Gutierrez
@@ -244,3 +244,4 @@ Vanity URL name
 
 
 \end{document}
+
